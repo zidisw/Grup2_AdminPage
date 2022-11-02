@@ -48,8 +48,6 @@ body {
 
 
 
-
-
 /* SIDEBAR */
 #sidebar {
 	position: fixed;
@@ -84,6 +82,13 @@ body {
 	z-index: 500;
 	padding-bottom: 20px;
 	box-sizing: content-box;
+}
+
+#sidebar .brand img {
+	width: 35px;
+	height: 35px;
+	margin-right: 20px;
+	margin-left: 10px
 }
 #sidebar .brand .bx {
 	min-width: 60px;
